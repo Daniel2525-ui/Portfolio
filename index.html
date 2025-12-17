@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Frontend Web Developer in the Philippines building fast, responsive, and user-friendly websites for businesses and individuals.">
+  <meta name="keywords"
+    content="Web Developer Philippines, Frontend Developer, HTML CSS JavaScript, Freelance Web Developer">
+  <meta name="author" content="Erle Daniel B. Sudario">
+  <title>Erle Daniel Sudario| Frontend Web Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <div class="main" id="home">
+    <div class="navbar">
+      <img src="compressed_ChatGPT Image Jun 11, 2025, 05_26_12 PM.png" class="logo" alt="Erle Daniel Logo">
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="info-text">
+      <h3>Hi, I'm <span>Erle Daniel B. Sudario</span>.</h3>
+      <h1>Frontend Web Developer</h1>
+      <p>
+        Building fast, responsive, and user-friendly websites that help businesses grow online.
+      </p>
+      <a href="#contact" class="cta">Get in Touch</a>
+    </div>
+
+    <img src="pic_for_port-removebg-preview.png" class="boy" alt="Erle Daniel portrait">
+  </div>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>Hi, I’m Erle Daniel — a self-taught frontend web developer who loves building clean, modern, and user-friendly
+        websites. I focus on writing semantic HTML, crafting responsive layouts with CSS, and adding interactivity with
+        JavaScript.</p>
+      <p>I’ve made personal projects such as landing pages and small business websites. My goal is to create websites
+        that are fast, mobile-friendly, and accessible, helping businesses and individuals establish a strong online
+        presence.</p>
+      <p>Outside of coding, I’m always exploring new web technologies and improving my workflow to deliver better
+        solutions for clients.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="skills-txt">
+      <h2>Technical Skills</h2>
+    </div>
+
+    <div class="skills-container">
+      <img src="compressed_html.png" alt="compressed_html.png">
+      <img src="compressed_css-3.png" alt="compressed_css-3.png">
+      <img src="compressed_js.png" alt="compressed_js.png">
+      <img src="compressed_figma_5968705-removebg-preview.png" alt="compressed_figma_5968705-removebg-preview.png">
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="projects-txt">
+      <h2>Some of My Works</h2>
+    </div>
+
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="MAD Project.png" alt="MAD automotive website">
+        <h3>MAD Automotive Website</h3>
+        <p>Responsive business website built with HTML & CSS to showcase services and increase inquiries.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="SoundWave Project.png" alt="SoundWave music website">
+        <h3>SoundWave Music Platform</h3>
+        <p>Interactive landing page with JavaScript animations for a music streaming platform.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="FoodMan Project.png" alt="FoodMan food delivery website">
+        <h3>FoodMan Delivery Website</h3>
+        <p>User-friendly food delivery website built with responsive layouts and modern UI design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>Let’s discuss your project or any questions you may have.</p>
+
+      <a href="https://m.me/erledanielsudario" target="_blank" class="cta messenger-btn">
+        <img src="messenger.png" alt="Messenger icon">
+        Contact via Messenger
+      </a>
+      <p class="phone-text">
+        <i class='bx bx-phone'></i>
+        <strong>+63 938 210 6550</strong>
+      </p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Erle Daniel B. Sudario. All rights reserved.</p>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const reveal = (element) => {
+      if (!element) return;
+      if (element.getBoundingClientRect().top < window.innerHeight - 100) {
+        element.classList.add('show');
+      }
+    };
+
+    const elementsToReveal = [
+      document.querySelector('.about-container'),
+      document.querySelector('.skills-txt'),
+      document.querySelector('.skills-container'),
+      document.querySelector('.projects-txt'),
+      document.querySelector('.projects-container'),
+      document.querySelector('.contact-container')
+    ];
+
+    window.addEventListener('scroll', () => {
+      elementsToReveal.forEach(el => reveal(el));
+    });
+  </script>
+
+</body>
+
+</html>
