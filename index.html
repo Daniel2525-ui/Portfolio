@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erle Daniel Sudario | Frontend Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Erle Daniel Sudario, a frontend web developer creating responsive and user-friendly websites.">
+    <link rel="icon" type="image/png" href="assets/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+                <a class="nav-brand" href="#home">DanIs<span>Dev</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-1">
+                        <li class="nav-item"><a class="nav-link nav-link-custom" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-custom" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-custom" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 hero-content d-flex flex-column justify-content-center 
+            text-center text-lg-start align-items-center align-items-lg-start">
+                        <div class="hero-badge d-flex justify-content-center align-items-center">
+                            Available for work
+                        </div>
+                        <h1 class="hero-name" id="heroName">Hi, I'm <span class="highlight">Erle Daniel
+                                Sudario</span></h1>
+                        <p class="hero-title" id="heroTitle">Frontend Web Developer</p>
+                        <p class="hero-tagline" id="heroTagline">I create beautiful, responsive, and user-friendly web
+                            experiences using modern technologies. Let's build something amazing together!</p>
+                        <div class="hero-buttons d-flex gap-3 justify-content-center justify-content-lg-start">
+                            <a href="#projects" class="btn-primary-custom">View My Work</a>
+                            <a href="#contact" class="btn-secondary-custom">Get In Touch</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 hero-image-wrapper">
+                        <div class="profile-image-container">
+                            <div class="profile-image">
+                                <div class="placeholder-avatar">
+                                    <img src="assets/pic_for_port-removebg-preview.png" alt="Hero Image">
+                                </div>
+                            </div>
+                            <div class="floating-badge badge-1"><span>🔥</span> <span>2 Years Exp</span>
+                            </div>
+                            <div class="floating-badge badge-2"><span>💻</span> <span>5+ Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container py-5 ">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">Passionate developer creating digital experiences</p>
+                        <p class="about-text" id="aboutText">I'm a passionate web developer with expertise in
+                            building
+                            modern, responsive websites and web applications. With a strong foundation in HTML5,
+                            CSS,
+                            JavaScript, and Bootstrap, I create seamless user experiences that look great on any
+                            device.
+                            I also utilize Canva for sleek web designs while ensuring simplicity in user
+                            interactivity.</p>
+                        <p class="about-text">My approach combines clean code practices with creative design
+                            thinking to
+                            deliver projects that not only meet but exceed expectations. I'm constantly learning and
+                            staying up-to-date with the latest web technologies to provide the best solutions for
+                            every
+                            project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills &amp; Tools</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/html-5-svgrepo-com.svg" alt="html logo">
+                        </div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">Semantic markup, accessibility, and modern HTML5 APIs for building
+                            structured web content.</p>
+                        <div class="skill-level">
+                            <div class="skill-level-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/icons8-css-logo.svg" alt="css logo">
+                        </div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">Responsive layouts, animations, Flexbox, Grid, and modern styling
+                            techniques.</p>
+                        <div class="skill-level">
+                            <div class="skill-level-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/js-svgrepo-com.svg" alt="js logo">
+                        </div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-desc">ES6+, DOM manipulation, async programming, and modern JavaScript
+                            patterns.
+                        </p>
+                        <div class="skill-level">
+                            <div class="skill-level-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/icons8-bootstrap.svg" alt="bootstrap logo">
+                        </div>
+                        <h3 class="skill-name">Bootstrap</h3>
+                        <p class="skill-desc">Rapid UI development with Bootstrap's responsive grid system and
+                            components.</p>
+                        <div class="skill-level">
+                            <div class="skill-level-bar" style="width: 92%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/icons8-canva.svg" alt="canva logo">
+                        </div>
+                        <h3 class="skill-name">Canva</h3>
+                        <p class="skill-desc"> Drag-and-drop design tool for quickly creating website layouts, graphics,
+                            and visual content with clean and simple designs.
+                        </p>
+                        <div class="skill-level">
+                            <div class="skill-level-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- Showcase Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Some of my personal projects</p>
+
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card h-100">
+                        <img src="assets/MADButuan.webp" class="one" alt="MAD Butuan">
+                        <div class="project-content">
+                            <h3 class="project-title">MadButuan Landing Page</h3>
+                            <p class="project-desc">MADButuan is a personal web development project: a landing page
+                                designed to highlight car services, including installation of accessories, repairs, and
+                                bookings, all
+                                through a clean, responsive, and user-friendly interface.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML5</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="assets/SoundWave.webp" alt="SoundWave">
+                        <div class="project-content">
+                            <h3 class="project-title">SoundWave</h3>
+                            <p class="project-desc">SoundWave is a personal web development project that simulates a
+                                recording studio website, built to showcase studio services such as recording, mixing,
+                                and music production while focusing on clean design and responsiveness.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML5</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card h-100">
+                        <img src="assets/LearnCode.webp" alt="Learn Code">
+                        <div class="project-content">
+                            <h3 class="project-title">LearnCode</h3>
+                            <p class="project-desc">LearnCode is a personal web development project: a website designed
+                                to provide coding tutorials, tips, and resources in a clean, responsive layout, helping
+                                beginners learn web development step by step.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML5</span>
+                                <span class="project-tag">Bootstrap</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-card">
+                        <div class="row">
+                            <div class="col-lg-5 mb-4 mb-lg-0">
+                                <h2 class="section-title">Get In Touch</h2>
+                                <p class="section-subtitle">Let's work together</p>
+                                <div class="contact-info">
+                                    <div class="contact-item">
+                                        <div class="contact-icon">📧</div>
+                                        <div>
+                                            <div class="contact-label">Email</div>
+                                            <div class="contact-value" id="contactEmail">erledanielsudario@gmail.com
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-icon">📍</div>
+                                        <div>
+                                            <div class="contact-label">Location</div>
+                                            <div class="contact-value">Cabadbaran City, Agusan del Norte, Philippines
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-icon">💼</div>
+                                        <div>
+                                            <div class="contact-label">Status</div>
+                                            <div class="contact-value" style="color: #10b981;">Available for hire</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="social-links">
+                                    <a href="https://github.com/Daniel2525-ui" class="social-link" title="GitHub">
+                                        <svg width="20" height="20" fill="currentColor" viewbox="0 0 24 24">
+                                            <path
+                                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-7">
+                                <!-- Contact Form -->
+                                <form class="contact-form" action="https://formspree.io/f/xyknwjkg" method="POST">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="name" class="form-label">Your Name</label>
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="John Smith" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label">Your Email</label>
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="john@example.com" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="subject" class="form-label">Subject</label>
+                                            <input type="text" class="form-control" id="subject" name="subject"
+                                                placeholder="Project Inquiry" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="message" class="form-label">Message</label>
+                                            <textarea class="form-control" id="message" name="message" rows="5"
+                                                placeholder="Tell me about your project..." required></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn-primary-custom w-100" id="submitBtn">
+                                                Send Message
+                                            </button>
+                                        </div>
+                                        <div class="col-12">
+                                            <div id="formMessage"
+                                                style="display:none; margin-top:10px; font-weight:500;"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 <span>Erle Daniel Sudario</span>. Crafted with passion &amp; code.</p>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
